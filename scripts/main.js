@@ -1,2 +1,3 @@
-import ('jquery')
+import { renderHeader } from "./template.js";
 
+renderHeader()
