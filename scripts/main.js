@@ -1,3 +1,9 @@
-import { renderHeader } from "./template.js";
+import { Datos } from "./backend.js"
 
-renderHeader()
+let d = Datos.getData()
+
+let data
+
+data = d
+
+console.log(data)

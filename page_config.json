@@ -19,5 +19,32 @@
             "view_title":"Integrantes",
             "view_menu":[]
         }
+    ],
+    "integrantes":[
+        {
+            "nombre":"Andres Abril",
+            "cargo":"",
+            "img_route":"/assets/page_basics/teammates/andres_abril.png"
+        },
+        {
+            "nombre":"Emanuel Celi",
+            "cargo":"",
+            "img_route":"/assets/page_basics/teammates/emanuel_celi.png"
+        },
+        {
+            "nombre":"Andres Abril",
+            "cargo":"",
+            "img_route":"/assets/page_basics/teammates/andres_abril.png"
+        },
+        {
+            "nombre":"Andres Abril",
+            "cargo":"",
+            "img_route":"/assets/page_basics/teammates/andres_abril.png"
+        },
+        {
+            "nombre":"Andres Abril",
+            "cargo":"",
+            "img_route":"/assets/page_basics/teammates/andres_abril.png"
+        }
     ]
 }
