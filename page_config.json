@@ -1,4 +1,23 @@
 {
-    "name":"unknown",
-    "logo":"/assets/art/ruiseñor.svg"
+    "game_name":"ruiseñor",
+    "game_logo":"/assets/art/ruiseñor.svg",
+    "main_menu":
+    [
+        {
+            "view_title":"Inicio",
+            "view_menu":[]
+        },
+        {
+            "view_title":"Historia",
+            "view_menu":[]
+        },
+        {
+            "view_title":"Arte",
+            "view_menu":[]
+        },
+        {
+            "view_title":"Integrantes",
+            "view_menu":[]
+        }
+    ]
 }
