@@ -31,28 +31,28 @@
     ],
     "integrantes":[
         {
-            "nombre":"Andres Abril",
-            "cargo":"",
+            "name":"Andres Abril",
+            "workload":"",
             "img_route":"/assets/page_basics/teammates/andres_abril.png"
         },
         {
-            "nombre":"Emanuel Celi",
-            "cargo":"",
+            "name":"Emanuel Celi",
+            "workload":"",
             "img_route":"/assets/page_basics/teammates/emanuel_celi.png"
         },
         {
-            "nombre":"Andres Abril",
-            "cargo":"",
+            "name":"Andres Abril",
+            "workload":"",
             "img_route":"/assets/page_basics/teammates/andres_abril.png"
         },
         {
-            "nombre":"Andres Abril",
-            "cargo":"",
+            "name":"Andres Abril",
+            "workload":"",
             "img_route":"/assets/page_basics/teammates/andres_abril.png"
         },
         {
-            "nombre":"Andres Abril",
-            "cargo":"",
+            "name":"Andres Abril",
+            "workload":"",
             "img_route":"/assets/page_basics/teammates/andres_abril.png"
         }
     ],

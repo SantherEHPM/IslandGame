@@ -3,6 +3,7 @@
 $sizes: 10 20 30 40 50 60 70 80 90 
 
 //Sizes (width,heigth)
+
 @for $sh from 1 through 20
     $sh:$sh*50
     
@@ -70,10 +71,52 @@ $wrap: wrap nowrap
                 display: flex
                 flex-direction: $f
                 flex-wrap: $w
-                gap: $gap
+                gap: #{$gap}+'px'
 
+//Margin
 
+@for $m from 1 through 20
+    $m_pr:$m*5
+
+    .ml-#{$m_pr}-pr
+        margin-left: #{$m_pr}+'%'
+    .mb-#{$m_pr}-pr
+        margin-bottom: #{$m_pr}+'%'
+    .mr-#{$m_pr}-pr
+        margin-right: #{$m_pr}+'%'
+    .mt-#{$m_pr}-pr
+        margin-top: #{$m_pr}+'%'
+    .mx-#{$m_pr}-pr
+        @extend .ml-#{$m_pr}-pr
+        @extend .mr-#{$m_pr}-pr
+
+    $m_px:$m*10
+
+    .ml-#{$m_px}-px
+        margin-left: #{$m_px}+'px'
+    .mb-#{$m_px}-px
+        margin-bottom: #{$m_px}+'px'
+    .mr-#{$m_px}-px
+        margin-right: #{$m_px}+'px'
+    .mt-#{$m_px}-px
+        margin-top: #{$m_px}+'px'
+    .mx-#{$m_px}-px
+        @extend .ml-#{$m_px}-px
+        @extend .mr-#{$m_px}-px
+    .my-#{$m_px}-px
+        @extend .mt-#{$m_px}-px
+        @extend .mb-#{$m_px}-px
+
+//Border
+@each $size in $sizes
+
+    .r-#{$size*0.5}-px
+        border-radius: #{$size*0.5}+'px'
+
+.r-full
+    border-radius: 100%
 //Padding
+
 @for $p from 1 through 10
     $p_pr:$p*5
 
@@ -105,36 +148,3 @@ $wrap: wrap nowrap
     .py-#{$p_px}-px
         @extend .pt-#{$p_px}-px
         @extend .pb-#{$p_px}-px
-
-//Margin
-@for $m from 1 through 10
-    $m_pr:$m*5
-
-    .ml-#{$m_pr}-pr
-        margin-left: #{$m_pr}+'%'
-    .mb-#{$m_pr}-pr
-        margin-bottom: #{$m_pr}+'%'
-    .mr-#{$m_pr}-pr
-        margin-right: #{$m_pr}+'%'
-    .mt-#{$m_pr}-pr
-        margin-top: #{$m_pr}+'%'
-    .mx-#{$m_pr}-pr
-        @extend .ml-#{$m_pr}-pr
-        @extend .mr-#{$m_pr}-pr
-
-    $m_px:$m*10
-
-    .ml-#{$m_px}-px
-        margin-left: #{$m_px}+'px'
-    .mb-#{$m_px}-px
-        margin-bottom: #{$m_px}+'px'
-    .mr-#{$m_px}-px
-        margin-right: #{$m_px}+'px'
-    .mt-#{$m_px}-px
-        margin-top: #{$m_px}+'px'
-    .mx-#{$m_px}-px
-        @extend .ml-#{$m_px}-px
-        @extend .mr-#{$m_px}-px
-    .my-#{$m_px}-px
-        @extend .mt-#{$m_px}-px
-        @extend .mb-#{$m_px}-px
