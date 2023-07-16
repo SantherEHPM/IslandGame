@@ -1,23 +1,18 @@
+
+
 class Datos{
-    constructor(){
-        this.data=[]
-        this.getApi()
-    }
 
-    getData(){
-        return this.data
-    }
+    static getData(){
+        let txtReader= new XMLHttpRequest()
 
-    getApi(){
-        fetch('../page_config.json')
-            .then((req)=>{
-                return req.json()
-            })
-            .then((res)=>{
-                this.data = {...res}
-                return(res)
-            })
+        txtReader.open('GET','../page_config.json',false)
+        txtReader.send(false)
+
+        this.json = JSON.parse(txtReader.responseText)
+
+        return this.json;
     }
 }
+
 
 export {Datos}
