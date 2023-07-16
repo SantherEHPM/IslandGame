@@ -2,27 +2,31 @@
     "game_name":"Ruiseñor",
     "game_logo":"/assets/art/ruiseñor.svg",
     "game_icon":"/assets/art/ruiseñor.svg",
-    "main_menu":
+    "views":
     [
         {
-            "view_title":"Inicio",
-            "view_menu":[],
-            "view_route":"/index.html"
+            "title":"Inicio",
+            "menu":[],
+            "route":"",
+            "tag":"index"
         },
         {
-            "view_title":"Historia",
-            "view_menu":[],
-            "view_route":"/views/story.html"
+            "title":"Historia",
+            "menu":[],
+            "route":"views/",
+            "tag":"story"
         },
         {
-            "view_title":"Arte",
-            "view_menu":[],
-            "view_route":"/views/concept_art.html"
+            "title":"Arte",
+            "menu":[],
+            "route":"views/",
+            "tag":"concept_art"
         },
         {
-            "view_title":"Integrantes",
-            "view_menu":[],
-            "view_route":"/views/teammates.html"
+            "title":"Integrantes",
+            "menu":[],
+            "route":"views/",
+            "tag":"teammates"
         }
     ],
     "integrantes":[
@@ -56,7 +60,7 @@
     "links":[
         {
             "rel":"stylesheet",
-            "href":"/styless/styless.css"
+            "href":"/styless/template.css"
         },
         {
             "rel":"icon",
