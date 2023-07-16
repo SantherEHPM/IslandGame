@@ -1,23 +1,28 @@
 {
-    "game_name":"ruiseñor",
+    "game_name":"Ruiseñor",
     "game_logo":"/assets/art/ruiseñor.svg",
+    "game_icon":"/assets/art/ruiseñor.svg",
     "main_menu":
     [
         {
             "view_title":"Inicio",
-            "view_menu":[]
+            "view_menu":[],
+            "view_route":"/index.html"
         },
         {
             "view_title":"Historia",
-            "view_menu":[]
+            "view_menu":[],
+            "view_route":"/views/story.html"
         },
         {
             "view_title":"Arte",
-            "view_menu":[]
+            "view_menu":[],
+            "view_route":"/views/concept_art.html"
         },
         {
             "view_title":"Integrantes",
-            "view_menu":[]
+            "view_menu":[],
+            "view_route":"/views/teammates.html"
         }
     ],
     "integrantes":[
@@ -45,6 +50,17 @@
             "nombre":"Andres Abril",
             "cargo":"",
             "img_route":"/assets/page_basics/teammates/andres_abril.png"
+        }
+    ],
+    "metadata":[],
+    "links":[
+        {
+            "rel":"stylesheet",
+            "href":"/styless/styless.css"
+        },
+        {
+            "rel":"icon",
+            "href":"/assets/page_basics/ruiseñor.png"
         }
     ]
 }
