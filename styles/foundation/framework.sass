@@ -121,6 +121,8 @@ $position: (flex-start: s, center: c, flex-end: e)
         @extend .mt-#{$m_px}-px
         @extend .mb-#{$m_px}-px
 
+.m-0
+    margin: 0
 //Border
 @each $size in $sizes
 
@@ -165,8 +167,13 @@ $position: (flex-start: s, center: c, flex-end: e)
     .py-#{$p_px}-px
         @extend .pt-#{$p_px}-px
         @extend .pb-#{$p_px}-px
+.p-0
+    padding: 0
 
 //Scroll
 .non-scroll-x
     overflow-x: hidden
 
+//Text
+.text-center
+    text-align: center
