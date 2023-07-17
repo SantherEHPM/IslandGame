@@ -1,23 +1,39 @@
 @import 'https://fonts.googleapis.com/css2?family=Ysabeau+Office:ital,wght@0,1;0,500;0,800;1,1&display=swap'
+
+@import foundation/framework
     
 $palete:#2eaa2e,#4d941a,#8c9d33,#e6d93d,#d6b93b
 $font-family: Ysabeau Office, sans-serif
 
+//General settings
+*
+    padding: 0
+    border: 0
+    margin: 0
+    box-sizing: border-box  
+
+img
+    display: inline-block
+    object-fit: cover
+
+p
+    display: inline-block
+
+//Template
 body
     padding: 0
     border: 0
     margin: 0
+    @extend .non-scroll-x
+    width: 99vw
     font-family: $font-family
     font-weight: 500
     background: white
 
     header
-        display: flex
-        flex-direction: column
-        justify-content: center
-        align-items: center
+        @extend .flex-c-nw-sc
         position: relative
-        width: 100vw
+        width: 100%
         height: 150px
         background-color: nth($palete,3)
         
@@ -29,7 +45,7 @@ body
         
         nav
             display: grid
-            grid-template-columns: repeat(4,200px)
+            grid-template-columns: repeat(4,25%)
             position: absolute
             bottom: 0
             width: 80%
@@ -60,17 +76,17 @@ body
 
     main
         $main_color:nth($palete,5)
-        widht: 100%
-        height: 400px
+        width: 100%
         background-color: scale-color($main_color,$alpha:-50%)
 
         .first-section
             $local_color:nth($palete,2)
             width: 100%
-            height: 200px
+            height: max-content
+            @extend .px-15-pr
+            @extend .py-70-px
             background-color: $local_color
-
-
+            
     footer
         display: flex
         justify-content: center

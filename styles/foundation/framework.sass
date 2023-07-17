@@ -1,0 +1,172 @@
+//Framework
+@use "sass:string"
+$sizes: 10 20 30 40 50 60 70 80 90 
+
+//Sizes (width,heigth)
+
+@for $sh from 1 through 20
+    $sh:$sh*50
+    
+    @for $sw from 1 through 21
+        $sw:$sw*50
+        @if $sw == 21
+            .s-#{$sw}-auto-px
+                width: #{$sw} + 'px'
+                height: auto
+        @else
+            .s-#{$sw}-#{$sh}-px
+                width: #{$sw} + 'px'
+                height: #{$sh} + 'px'
+        
+
+    @each $sw in $sizes
+            .s-#{$sw}-#{$sh}-pr
+                width: #{$sw} + '%'
+                height: #{$sh} + 'px'
+        
+
+    .s-full-#{$sh}-px
+        width: 100%
+        height: #{$sh} + 'px'
+    
+    .s-max-#{$sh}-px
+        width: max-content
+        height: #{$sh} + 'px'
+        
+    .s-min-#{$sh}-px
+        width: min-content
+        height: #{$sh} + 'px'
+
+.s-full-auto
+    width: 100%
+    height: auto
+
+@each $sw in $sizes
+            .s-#{$sw}-auto-pr
+                width: #{$sw} + '%'
+                height: auto
+
+.s-max-auto
+    width: max-content
+    height: auto
+    
+.s-min-auto
+    width: min-content
+    height: auto
+
+.s-fit-auto
+    width: fit-content
+    height: auto
+
+//Flex box
+
+$flows: (row: r, row-reverse: rr, column: c, col-reverse: cr)
+$wrap: (wrap: w, nowrap: nw)
+$position: (flex-start: s, center: c, flex-end: e)
+
+
+@each $flow,$f in $flows //flex-flow
+    @each $wrap,$w in $wrap //flex-wrap
+        @each $jus,$j in $position //justify-contes
+            @each $ali,$a in $position //aling-items
+                .flex-#{$f}-#{$w}-#{$j}#{$a}
+                    display: flex
+                    flex-direction: $flow
+                    flex-wrap: $wrap 
+                    justify-content: $jus
+                    align-items: $ali 
+                    gap: 0
+                    
+                @for $gap from 1 through 5
+                    $gap:$gap*10
+                    .flex-#{$f}-#{$w}-#{$j}#{$a}-#{$gap}
+                        display: flex
+                        flex-direction: $flow
+                        flex-wrap: $wrap
+                        justify-content: $jus
+                        align-items: $ali 
+                        gap: #{$gap}+'px'
+
+//Margin
+
+@for $m from 1 through 20
+    $m_pr:$m*5
+
+    .ml-#{$m_pr}-pr
+        margin-left: #{$m_pr}+'%'
+    .mb-#{$m_pr}-pr
+        margin-bottom: #{$m_pr}+'%'
+    .mr-#{$m_pr}-pr
+        margin-right: #{$m_pr}+'%'
+    .mt-#{$m_pr}-pr
+        margin-top: #{$m_pr}+'%'
+    .mx-#{$m_pr}-pr
+        @extend .ml-#{$m_pr}-pr
+        @extend .mr-#{$m_pr}-pr
+
+    $m_px:$m*10
+
+    .ml-#{$m_px}-px
+        margin-left: #{$m_px}+'px'
+    .mb-#{$m_px}-px
+        margin-bottom: #{$m_px}+'px'
+    .mr-#{$m_px}-px
+        margin-right: #{$m_px}+'px'
+    .mt-#{$m_px}-px
+        margin-top: #{$m_px}+'px'
+    .mx-#{$m_px}-px
+        @extend .ml-#{$m_px}-px
+        @extend .mr-#{$m_px}-px
+    .my-#{$m_px}-px
+        @extend .mt-#{$m_px}-px
+        @extend .mb-#{$m_px}-px
+
+//Border
+@each $size in $sizes
+
+    .r-#{$size*0.5}-px
+        border-radius: #{$size*0.5}+'px'
+
+.r-full
+    border-radius: 100%
+//Padding
+
+@for $p from 1 through 10
+    $p_pr:$p*5
+    .p-#{$p_pr}-pr
+        padding: #{$p_pr}+'%'
+    .pl-#{$p_pr}-pr
+        padding-left: #{$p_pr}+'%'
+    .pb-#{$p_pr}-pr
+        padding-bottom: #{$p_pr}+'%'
+    .pr-#{$p_pr}-pr
+        padding-right: #{$p_pr}+'%'
+    .pt-#{$p_pr}-pr
+        padding-top: #{$p_pr}+'%'
+    .px-#{$p_pr}-pr
+        @extend .pl-#{$p_pr}-pr
+        @extend .pr-#{$p_pr}-pr
+
+    $p_px:$p*10
+
+    .p-#{$p_px}-px
+        padding: #{$p_px}+'px'
+    .pl-#{$p_px}-px
+        padding-left: #{$p_px}+'px'
+    .pb-#{$p_px}-px
+        padding-bottom: #{$p_px}+'px'
+    .pr-#{$p_px}-px
+        padding-right: #{$p_px}+'px'
+    .pt-#{$p_px}-px
+        padding-top: #{$p_px}+'px'
+    .px-#{$p_px}-px
+        @extend .pl-#{$p_px}-px
+        @extend .pr-#{$p_px}-px
+    .py-#{$p_px}-px
+        @extend .pt-#{$p_px}-px
+        @extend .pb-#{$p_px}-px
+
+//Scroll
+.non-scroll-x
+    overflow-x: hidden
+

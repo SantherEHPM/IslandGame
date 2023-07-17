@@ -6,8 +6,9 @@ const header = document.createElement('header')
 const mainNav = document.createElement('nav')
 const contextNav = document.createElement('nav')
 const footer = document.createElement('footer')
-
 const main = document.querySelector('main')
+
+let actualView = {}
 
 console.log(DATA)
 
@@ -36,23 +37,40 @@ const setMeta = () =>{
         }
         head.appendChild(linkClone)
     }
+    for(let v of DATA.views){
+        if(window.location.pathname.includes(v.tag)){
+            Object.assign(actualView,v)
+            break
+        }
+    }
+    
+    const stylesheet = document.createElement('link')
+    const script = document.createElement('script')
+
+    stylesheet.setAttribute('href',`/styles/${actualView.route}${actualView.tag}/${actualView.tag}.css`)
+    stylesheet.setAttribute('rel','stylesheet')
+
+    document.head.appendChild(stylesheet)
+
+    script.setAttribute('src',`/scripts/${actualView.route}${actualView.tag}.js`)
+    script.setAttribute('type','module')
+
+    document.head.appendChild(script)
 }
 
 const setMainNav = () => {
     const a = document.createElement('a')
 
-    console.log(window.location.pathname)
-
-    for(let n of DATA.main_menu){
+    for(let n of DATA.views){
         const aClone = a.cloneNode(true)
-        aClone.textContent = n.view_title
+        aClone.textContent = n.title
         if(n.view_route==window.location.pathname){ 
             aClone.classList.toggle('active_view')
         }
         else {
             aClone.classList.toggle('available_view')
-            aClone.setAttribute('href',n.view_route)
-        }
+            aClone.setAttribute('href',`/${n.route}${n.tag}.html`)
+        }   
         
         mainNav.appendChild(aClone)
     }
@@ -90,7 +108,13 @@ const setFooter = () =>{
 }
 
 const setMain = () => {
-    document.body.querySelector('main').querySelector('section').classList.add('first-section')
+    try{
+            document.body.querySelector('main').querySelector('section').classList.add('first-section')
+    }
+    catch(e){console.error(e)
+    }
+
+    
 }
 
 const renderTemplate = () =>{

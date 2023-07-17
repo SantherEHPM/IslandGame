@@ -2,61 +2,65 @@
     "game_name":"Ruiseñor",
     "game_logo":"/assets/art/ruiseñor.svg",
     "game_icon":"/assets/art/ruiseñor.svg",
-    "main_menu":
+    "views":
     [
         {
-            "view_title":"Inicio",
-            "view_menu":[],
-            "view_route":"/index.html"
+            "title":"Inicio",
+            "menu":[],
+            "route":"",
+            "tag":"index"
         },
         {
-            "view_title":"Historia",
-            "view_menu":[],
-            "view_route":"/views/story.html"
+            "title":"Historia",
+            "menu":[],
+            "route":"views/",
+            "tag":"story"
         },
         {
-            "view_title":"Arte",
-            "view_menu":[],
-            "view_route":"/views/concept_art.html"
+            "title":"Arte",
+            "menu":[],
+            "route":"views/",
+            "tag":"concept_art"
         },
         {
-            "view_title":"Integrantes",
-            "view_menu":[],
-            "view_route":"/views/teammates.html"
+            "title":"Integrantes",
+            "menu":[],
+            "route":"views/",
+            "tag":"teammates"
         }
     ],
-    "integrantes":[
+    "teammates":[
         {
-            "nombre":"Andres Abril",
-            "cargo":"",
+            "name":"Andres Abril",
+            "workload":"",
             "img_route":"/assets/page_basics/teammates/andres_abril.png"
         },
         {
-            "nombre":"Emanuel Celi",
-            "cargo":"",
-            "img_route":"/assets/page_basics/teammates/emanuel_celi.png"
+            "name":"Emanuel Celi",
+            "workload":"",
+            "img_route":"/assets/page_basics/teammates/emanuel_celi.jpg"
         },
         {
-            "nombre":"Andres Abril",
-            "cargo":"",
-            "img_route":"/assets/page_basics/teammates/andres_abril.png"
+            "name":"Erick Parrado",
+            "workload":"",
+            "img_route":"/assets/page_basics/teammates/erick_parrado.jpg"
         },
         {
-            "nombre":"Andres Abril",
-            "cargo":"",
-            "img_route":"/assets/page_basics/teammates/andres_abril.png"
+            "name":"Sarita Salazar",
+            "workload":"",
+            "img_route":"/assets/page_basics/teammates/sarita_salazar.jpg"
         },
         {
-            "nombre":"Andres Abril",
-            "cargo":"",
-            "img_route":"/assets/page_basics/teammates/andres_abril.png"
+            "name":"Karen Soler",
+            "workload":"",
+            "img_route":"/assets/page_basics/teammates/karen_soler.jpg"
         }
     ],
     "metadata":[],
     "links":[
         {
             "rel":"stylesheet",
-            "href":"/styless/styless.css"
+            "href":"/styles/template.css"
         },
         {
             "rel":"icon",
