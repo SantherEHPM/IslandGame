@@ -47,18 +47,19 @@ const setMeta = () =>{
     const stylesheet = document.createElement('link')
     const script = document.createElement('script')
 
-    stylesheet.setAttribute('href',`/styless/${actualView.route}${actualView.tag}/${actualView.tag}.css`)
+    stylesheet.setAttribute('href',`/styles/${actualView.route}${actualView.tag}/${actualView.tag}.css`)
     stylesheet.setAttribute('rel','stylesheet')
 
-    script.setAttribute('src',`/scripts/${actualView.route}${actualView.tag}.css`)
-
     document.head.appendChild(stylesheet)
+
+    script.setAttribute('src',`/scripts/${actualView.route}${actualView.tag}.js`)
+    script.setAttribute('type','module')
+
+    document.head.appendChild(script)
 }
 
 const setMainNav = () => {
     const a = document.createElement('a')
-
-    console.log(window.location.pathname)
 
     for(let n of DATA.views){
         const aClone = a.cloneNode(true)
@@ -69,7 +70,7 @@ const setMainNav = () => {
         else {
             aClone.classList.toggle('available_view')
             aClone.setAttribute('href',`/${n.route}${n.tag}.html`)
-        }
+        }   
         
         mainNav.appendChild(aClone)
     }
@@ -109,7 +110,6 @@ const setFooter = () =>{
 const setMain = () => {
     try{
             document.body.querySelector('main').querySelector('section').classList.add('first-section')
-            console.warn('ajo')
     }
     catch(e){console.error(e)
     }

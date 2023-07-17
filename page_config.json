@@ -29,7 +29,7 @@
             "tag":"teammates"
         }
     ],
-    "integrantes":[
+    "teammates":[
         {
             "name":"Andres Abril",
             "workload":"",
@@ -38,29 +38,29 @@
         {
             "name":"Emanuel Celi",
             "workload":"",
-            "img_route":"/assets/page_basics/teammates/emanuel_celi.png"
+            "img_route":"/assets/page_basics/teammates/emanuel_celi.jpg"
         },
         {
-            "name":"Andres Abril",
+            "name":"Erick Parrado",
             "workload":"",
-            "img_route":"/assets/page_basics/teammates/andres_abril.png"
+            "img_route":"/assets/page_basics/teammates/erick_parrado.jpg"
         },
         {
-            "name":"Andres Abril",
+            "name":"Sarita Salazar",
             "workload":"",
-            "img_route":"/assets/page_basics/teammates/andres_abril.png"
+            "img_route":"/assets/page_basics/teammates/sarita_salazar.jpg"
         },
         {
-            "name":"Andres Abril",
+            "name":"Karen Soler",
             "workload":"",
-            "img_route":"/assets/page_basics/teammates/andres_abril.png"
+            "img_route":"/assets/page_basics/teammates/karen_soler.jpg"
         }
     ],
     "metadata":[],
     "links":[
         {
             "rel":"stylesheet",
-            "href":"/styless/template.css"
+            "href":"/styles/template.css"
         },
         {
             "rel":"icon",
