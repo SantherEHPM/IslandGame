@@ -514,7 +514,7 @@
   height: 200px;
 }
 
-.s-200-200-px, main .first-section img {
+.s-200-200-px, main #team_main #teammate img, main .first-section img {
   width: 200px;
   height: 200px;
 }
@@ -3595,7 +3595,7 @@
   gap: 20px;
 }
 
-.flex-r-w-cs-30 {
+.flex-r-w-cs-30, main #team_main #team {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -5404,7 +5404,7 @@
   gap: 50px;
 }
 
-.flex-c-w-sc {
+.flex-c-w-sc, main #team_main #teammate {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -7346,7 +7346,7 @@
   margin-left: 20px;
 }
 
-.mb-20-px, .my-20-px {
+.mb-20-px, main #team_main #teammate img, .my-20-px {
   margin-bottom: 20px;
 }
 
@@ -7386,7 +7386,7 @@
   margin-right: 30px;
 }
 
-.mt-30-px, .my-30-px {
+.mt-30-px, main #team_main #team, .my-30-px {
   margin-top: 30px;
 }
 
@@ -7946,7 +7946,7 @@
   border-radius: 15px;
 }
 
-.r-20-px {
+.r-20-px, main #team_main #teammate {
   border-radius: 20px;
 }
 
@@ -7970,8 +7970,12 @@
   border-radius: 45px;
 }
 
-.r-full, main .first-section img {
+.r-full, main #team_main #teammate img, main .first-section img {
   border-radius: 100%;
+}
+
+.p-5-pr {
+  padding: 5%;
 }
 
 .pl-5-pr, .px-5-pr {
@@ -7990,6 +7994,10 @@
   padding-top: 5%;
 }
 
+.p-10-px {
+  padding: 10px;
+}
+
 .pl-10-px, .px-10-px {
   padding-left: 10px;
 }
@@ -8004,6 +8012,10 @@
 
 .pt-10-px, .py-10-px {
   padding-top: 10px;
+}
+
+.p-10-pr {
+  padding: 10%;
 }
 
 .pl-10-pr, .px-10-pr {
@@ -8022,20 +8034,28 @@
   padding-top: 10%;
 }
 
-.pl-20-px, .px-20-px {
+.p-20-px {
+  padding: 20px;
+}
+
+.pl-20-px, .px-20-px, main #team_main #teammate {
   padding-left: 20px;
 }
 
-.pb-20-px, .py-20-px, main #team_main {
+.pb-20-px, .py-20-px {
   padding-bottom: 20px;
 }
 
-.pr-20-px, .px-20-px {
+.pr-20-px, .px-20-px, main #team_main #teammate {
   padding-right: 20px;
 }
 
-.pt-20-px, .py-20-px, main #team_main {
+.pt-20-px, .py-20-px {
   padding-top: 20px;
+}
+
+.p-15-pr {
+  padding: 15%;
 }
 
 .pl-15-pr, .px-15-pr, main #team_main {
@@ -8054,11 +8074,15 @@
   padding-top: 15%;
 }
 
+.p-30-px {
+  padding: 30px;
+}
+
 .pl-30-px, .px-30-px {
   padding-left: 30px;
 }
 
-.pb-30-px, .py-30-px {
+.pb-30-px, .py-30-px, main #team_main {
   padding-bottom: 30px;
 }
 
@@ -8066,8 +8090,12 @@
   padding-right: 30px;
 }
 
-.pt-30-px, .py-30-px {
+.pt-30-px, .py-30-px, main #team_main {
   padding-top: 30px;
+}
+
+.p-20-pr {
+  padding: 20%;
 }
 
 .pl-20-pr, .px-20-pr {
@@ -8086,11 +8114,15 @@
   padding-top: 20%;
 }
 
+.p-40-px {
+  padding: 40px;
+}
+
 .pl-40-px, .px-40-px {
   padding-left: 40px;
 }
 
-.pb-40-px, .py-40-px {
+.pb-40-px, .py-40-px, main #team_main #teammate {
   padding-bottom: 40px;
 }
 
@@ -8098,8 +8130,12 @@
   padding-right: 40px;
 }
 
-.pt-40-px, .py-40-px {
+.pt-40-px, .py-40-px, main #team_main #teammate {
   padding-top: 40px;
+}
+
+.p-25-pr {
+  padding: 25%;
 }
 
 .pl-25-pr, .px-25-pr {
@@ -8118,6 +8154,10 @@
   padding-top: 25%;
 }
 
+.p-50-px {
+  padding: 50px;
+}
+
 .pl-50-px, .px-50-px {
   padding-left: 50px;
 }
@@ -8132,6 +8172,10 @@
 
 .pt-50-px, .py-50-px {
   padding-top: 50px;
+}
+
+.p-30-pr {
+  padding: 30%;
 }
 
 .pl-30-pr, .px-30-pr {
@@ -8150,6 +8194,10 @@
   padding-top: 30%;
 }
 
+.p-60-px {
+  padding: 60px;
+}
+
 .pl-60-px, .px-60-px {
   padding-left: 60px;
 }
@@ -8164,6 +8212,10 @@
 
 .pt-60-px, .py-60-px {
   padding-top: 60px;
+}
+
+.p-35-pr {
+  padding: 35%;
 }
 
 .pl-35-pr, .px-35-pr {
@@ -8182,6 +8234,10 @@
   padding-top: 35%;
 }
 
+.p-70-px {
+  padding: 70px;
+}
+
 .pl-70-px, .px-70-px {
   padding-left: 70px;
 }
@@ -8196,6 +8252,10 @@
 
 .pt-70-px, .py-70-px {
   padding-top: 70px;
+}
+
+.p-40-pr {
+  padding: 40%;
 }
 
 .pl-40-pr, .px-40-pr {
@@ -8214,6 +8274,10 @@
   padding-top: 40%;
 }
 
+.p-80-px {
+  padding: 80px;
+}
+
 .pl-80-px, .px-80-px {
   padding-left: 80px;
 }
@@ -8228,6 +8292,10 @@
 
 .pt-80-px, .py-80-px {
   padding-top: 80px;
+}
+
+.p-45-pr {
+  padding: 45%;
 }
 
 .pl-45-pr, .px-45-pr {
@@ -8246,6 +8314,10 @@
   padding-top: 45%;
 }
 
+.p-90-px {
+  padding: 90px;
+}
+
 .pl-90-px, .px-90-px {
   padding-left: 90px;
 }
@@ -8260,6 +8332,10 @@
 
 .pt-90-px, .py-90-px {
   padding-top: 90px;
+}
+
+.p-50-pr {
+  padding: 50%;
 }
 
 .pl-50-pr, .px-50-pr {
@@ -8278,6 +8354,10 @@
   padding-top: 50%;
 }
 
+.p-100-px {
+  padding: 100px;
+}
+
 .pl-100-px, .px-100-px {
   padding-left: 100px;
 }
@@ -8294,7 +8374,13 @@
   padding-top: 100px;
 }
 
+.non-scroll-x {
+  overflow-x: hidden;
+}
+
 main #team_main {
-  height: 100px;
   background-color: white;
+}
+main #team_main #teammate {
+  background-color: #c9c9c9;
 }/*# sourceMappingURL=teammates.css.map */

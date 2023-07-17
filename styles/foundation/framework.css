@@ -7974,6 +7974,10 @@
   border-radius: 100%;
 }
 
+.p-5-pr {
+  padding: 5%;
+}
+
 .pl-5-pr, .px-5-pr {
   padding-left: 5%;
 }
@@ -7988,6 +7992,10 @@
 
 .pt-5-pr {
   padding-top: 5%;
+}
+
+.p-10-px {
+  padding: 10px;
 }
 
 .pl-10-px, .px-10-px {
@@ -8006,6 +8014,10 @@
   padding-top: 10px;
 }
 
+.p-10-pr {
+  padding: 10%;
+}
+
 .pl-10-pr, .px-10-pr {
   padding-left: 10%;
 }
@@ -8020,6 +8032,10 @@
 
 .pt-10-pr {
   padding-top: 10%;
+}
+
+.p-20-px {
+  padding: 20px;
 }
 
 .pl-20-px, .px-20-px {
@@ -8038,6 +8054,10 @@
   padding-top: 20px;
 }
 
+.p-15-pr {
+  padding: 15%;
+}
+
 .pl-15-pr, .px-15-pr {
   padding-left: 15%;
 }
@@ -8052,6 +8072,10 @@
 
 .pt-15-pr {
   padding-top: 15%;
+}
+
+.p-30-px {
+  padding: 30px;
 }
 
 .pl-30-px, .px-30-px {
@@ -8070,6 +8094,10 @@
   padding-top: 30px;
 }
 
+.p-20-pr {
+  padding: 20%;
+}
+
 .pl-20-pr, .px-20-pr {
   padding-left: 20%;
 }
@@ -8084,6 +8112,10 @@
 
 .pt-20-pr {
   padding-top: 20%;
+}
+
+.p-40-px {
+  padding: 40px;
 }
 
 .pl-40-px, .px-40-px {
@@ -8102,6 +8134,10 @@
   padding-top: 40px;
 }
 
+.p-25-pr {
+  padding: 25%;
+}
+
 .pl-25-pr, .px-25-pr {
   padding-left: 25%;
 }
@@ -8116,6 +8152,10 @@
 
 .pt-25-pr {
   padding-top: 25%;
+}
+
+.p-50-px {
+  padding: 50px;
 }
 
 .pl-50-px, .px-50-px {
@@ -8134,6 +8174,10 @@
   padding-top: 50px;
 }
 
+.p-30-pr {
+  padding: 30%;
+}
+
 .pl-30-pr, .px-30-pr {
   padding-left: 30%;
 }
@@ -8148,6 +8192,10 @@
 
 .pt-30-pr {
   padding-top: 30%;
+}
+
+.p-60-px {
+  padding: 60px;
 }
 
 .pl-60-px, .px-60-px {
@@ -8166,6 +8214,10 @@
   padding-top: 60px;
 }
 
+.p-35-pr {
+  padding: 35%;
+}
+
 .pl-35-pr, .px-35-pr {
   padding-left: 35%;
 }
@@ -8180,6 +8232,10 @@
 
 .pt-35-pr {
   padding-top: 35%;
+}
+
+.p-70-px {
+  padding: 70px;
 }
 
 .pl-70-px, .px-70-px {
@@ -8198,6 +8254,10 @@
   padding-top: 70px;
 }
 
+.p-40-pr {
+  padding: 40%;
+}
+
 .pl-40-pr, .px-40-pr {
   padding-left: 40%;
 }
@@ -8212,6 +8272,10 @@
 
 .pt-40-pr {
   padding-top: 40%;
+}
+
+.p-80-px {
+  padding: 80px;
 }
 
 .pl-80-px, .px-80-px {
@@ -8230,6 +8294,10 @@
   padding-top: 80px;
 }
 
+.p-45-pr {
+  padding: 45%;
+}
+
 .pl-45-pr, .px-45-pr {
   padding-left: 45%;
 }
@@ -8244,6 +8312,10 @@
 
 .pt-45-pr {
   padding-top: 45%;
+}
+
+.p-90-px {
+  padding: 90px;
 }
 
 .pl-90-px, .px-90-px {
@@ -8262,6 +8334,10 @@
   padding-top: 90px;
 }
 
+.p-50-pr {
+  padding: 50%;
+}
+
 .pl-50-pr, .px-50-pr {
   padding-left: 50%;
 }
@@ -8278,6 +8354,10 @@
   padding-top: 50%;
 }
 
+.p-100-px {
+  padding: 100px;
+}
+
 .pl-100-px, .px-100-px {
   padding-left: 100px;
 }
@@ -8292,4 +8372,8 @@
 
 .pt-100-px, .py-100-px {
   padding-top: 100px;
+}
+
+.non-scroll-x {
+  overflow-x: hidden;
 }/*# sourceMappingURL=framework.css.map */

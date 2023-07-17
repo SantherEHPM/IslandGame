@@ -133,7 +133,8 @@ $position: (flex-start: s, center: c, flex-end: e)
 
 @for $p from 1 through 10
     $p_pr:$p*5
-
+    .p-#{$p_pr}-pr
+        padding: #{$p_pr}+'%'
     .pl-#{$p_pr}-pr
         padding-left: #{$p_pr}+'%'
     .pb-#{$p_pr}-pr
@@ -148,6 +149,8 @@ $position: (flex-start: s, center: c, flex-end: e)
 
     $p_px:$p*10
 
+    .p-#{$p_px}-px
+        padding: #{$p_px}+'px'
     .pl-#{$p_px}-px
         padding-left: #{$p_px}+'px'
     .pb-#{$p_px}-px
@@ -162,3 +165,8 @@ $position: (flex-start: s, center: c, flex-end: e)
     .py-#{$p_px}-px
         @extend .pt-#{$p_px}-px
         @extend .pb-#{$p_px}-px
+
+//Scroll
+.non-scroll-x
+    overflow-x: hidden
+
