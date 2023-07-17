@@ -14,7 +14,8 @@
             "title":"Historia",
             "menu":[],
             "route":"views/",
-            "tag":"story"
+            "tag":"story",
+            "front_img":"/assets/page_basics/fill_image.svg"
         },
         {
             "title":"Arte",

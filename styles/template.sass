@@ -6,6 +6,7 @@ $palete:#2eaa2e,#4d941a,#8c9d33,#e6d93d,#d6b93b
 $font-family: Ysabeau Office, sans-serif
 
 //General settings
+
 *
     padding: 0
     border: 0
@@ -19,13 +20,18 @@ img
 p
     display: inline-block
 
+@mixin  section_padding
+    @extend .s-full-auto
+    @extend .px-15-pr
+
+
 //Template
 body
     padding: 0
     border: 0
     margin: 0
     @extend .non-scroll-x
-    width: 99vw
+    width: 100vw
     font-family: $font-family
     font-weight: 500
     background: white
@@ -33,8 +39,7 @@ body
     header
         @extend .flex-c-nw-sc
         position: relative
-        width: 100%
-        height: 150px
+        @extend .s-full-150-px
         background-color: nth($palete,3)
         
         img     
@@ -81,10 +86,9 @@ body
 
         .first-section
             $local_color:nth($palete,2)
-            width: 100%
-            height: max-content
-            @extend .px-15-pr
+            @extend .s-full-auto
             @extend .py-70-px
+            color: white
             background-color: $local_color
             
     footer

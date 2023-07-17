@@ -515,7 +515,7 @@
   height: 200px;
 }
 
-.s-200-200-px, main #team_main #teammate img, main .first-section img {
+.s-200-200-px {
   width: 200px;
   height: 200px;
 }
@@ -650,7 +650,7 @@
   height: 200px;
 }
 
-.s-full-200-px {
+.s-full-200-px, .first-section img {
   width: 100%;
   height: 200px;
 }
@@ -3339,7 +3339,7 @@
   height: 1000px;
 }
 
-.s-full-auto, body main .first-section, .section_padding {
+.s-full-auto, .first-section h1, .first-section p, body main .first-section {
   width: 100%;
   height: auto;
 }
@@ -3596,7 +3596,7 @@
   gap: 20px;
 }
 
-.flex-r-w-cs-30, main #team_main #team {
+.flex-r-w-cs-30 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -3911,7 +3911,7 @@
   gap: 10px;
 }
 
-.flex-r-nw-ss-20, main .first-section {
+.flex-r-nw-ss-20 {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -5405,7 +5405,7 @@
   gap: 50px;
 }
 
-.flex-c-w-sc, main #team_main #teammate {
+.flex-c-w-sc {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -5891,7 +5891,7 @@
   gap: 50px;
 }
 
-.flex-c-nw-sc, main #team_main, body header {
+.flex-c-nw-sc, body header {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -7315,7 +7315,7 @@
   margin-left: 10px;
 }
 
-.mb-10-px, main .first-section h1, .my-10-px {
+.mb-10-px, .my-10-px {
   margin-bottom: 10px;
 }
 
@@ -7347,7 +7347,7 @@
   margin-left: 20px;
 }
 
-.mb-20-px, main #team_main #teammate img, .my-20-px {
+.mb-20-px, .my-20-px, .first-section img {
   margin-bottom: 20px;
 }
 
@@ -7355,7 +7355,7 @@
   margin-right: 20px;
 }
 
-.mt-20-px, .my-20-px {
+.mt-20-px, .my-20-px, .first-section img {
   margin-top: 20px;
 }
 
@@ -7387,7 +7387,7 @@
   margin-right: 30px;
 }
 
-.mt-30-px, main #team_main #team, .my-30-px {
+.mt-30-px, .my-30-px {
   margin-top: 30px;
 }
 
@@ -7603,7 +7603,7 @@
   margin-left: 100px;
 }
 
-.mb-100-px, main .first-section, .my-100-px {
+.mb-100-px, .my-100-px {
   margin-bottom: 100px;
 }
 
@@ -7951,7 +7951,7 @@
   border-radius: 15px;
 }
 
-.r-20-px, main #team_main #teammate {
+.r-20-px {
   border-radius: 20px;
 }
 
@@ -7975,7 +7975,7 @@
   border-radius: 45px;
 }
 
-.r-full, main #team_main #teammate img, main .first-section img {
+.r-full {
   border-radius: 100%;
 }
 
@@ -8043,7 +8043,7 @@
   padding: 20px;
 }
 
-.pl-20-px, .px-20-px, main #team_main #teammate {
+.pl-20-px, .px-20-px {
   padding-left: 20px;
 }
 
@@ -8051,7 +8051,7 @@
   padding-bottom: 20px;
 }
 
-.pr-20-px, .px-20-px, main #team_main #teammate {
+.pr-20-px, .px-20-px {
   padding-right: 20px;
 }
 
@@ -8063,7 +8063,7 @@
   padding: 15%;
 }
 
-.pl-15-pr, .px-15-pr, main #team_main, main .first-section, .section_padding {
+.pl-15-pr, .px-15-pr, .first-section h1, .first-section p {
   padding-left: 15%;
 }
 
@@ -8071,7 +8071,7 @@
   padding-bottom: 15%;
 }
 
-.pr-15-pr, .px-15-pr, main #team_main, main .first-section, .section_padding {
+.pr-15-pr, .px-15-pr, .first-section h1, .first-section p {
   padding-right: 15%;
 }
 
@@ -8087,7 +8087,7 @@
   padding-left: 30px;
 }
 
-.pb-30-px, .py-30-px, main #team_main {
+.pb-30-px, .py-30-px {
   padding-bottom: 30px;
 }
 
@@ -8095,7 +8095,7 @@
   padding-right: 30px;
 }
 
-.pt-30-px, .py-30-px, main #team_main {
+.pt-30-px, .py-30-px {
   padding-top: 30px;
 }
 
@@ -8127,7 +8127,7 @@
   padding-left: 40px;
 }
 
-.pb-40-px, .py-40-px, main #team_main #teammate {
+.pb-40-px, .py-40-px {
   padding-bottom: 40px;
 }
 
@@ -8135,7 +8135,7 @@
   padding-right: 40px;
 }
 
-.pt-40-px, .py-40-px, main #team_main #teammate {
+.pt-40-px, .py-40-px {
   padding-top: 40px;
 }
 
@@ -8385,6 +8385,10 @@
 
 .non-scroll-x, body {
   overflow-x: hidden;
+}
+
+.text-center, .first-section h1, .first-section p {
+  text-align: center;
 }
 
 .s-50-50-px {
@@ -8903,7 +8907,7 @@
   height: 200px;
 }
 
-.s-200-200-px, main #team_main #teammate img, main .first-section img {
+.s-200-200-px {
   width: 200px;
   height: 200px;
 }
@@ -9038,7 +9042,7 @@
   height: 200px;
 }
 
-.s-full-200-px {
+.s-full-200-px, .first-section img {
   width: 100%;
   height: 200px;
 }
@@ -11727,7 +11731,7 @@
   height: 1000px;
 }
 
-.s-full-auto, body main .first-section, .section_padding {
+.s-full-auto, .first-section h1, .first-section p, body main .first-section {
   width: 100%;
   height: auto;
 }
@@ -11984,7 +11988,7 @@
   gap: 20px;
 }
 
-.flex-r-w-cs-30, main #team_main #team {
+.flex-r-w-cs-30 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -12299,7 +12303,7 @@
   gap: 10px;
 }
 
-.flex-r-nw-ss-20, main .first-section {
+.flex-r-nw-ss-20 {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -13793,7 +13797,7 @@
   gap: 50px;
 }
 
-.flex-c-w-sc, main #team_main #teammate {
+.flex-c-w-sc {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -14279,7 +14283,7 @@
   gap: 50px;
 }
 
-.flex-c-nw-sc, main #team_main, body header {
+.flex-c-nw-sc, body header {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -15703,7 +15707,7 @@
   margin-left: 10px;
 }
 
-.mb-10-px, main .first-section h1, .my-10-px {
+.mb-10-px, .my-10-px {
   margin-bottom: 10px;
 }
 
@@ -15735,7 +15739,7 @@
   margin-left: 20px;
 }
 
-.mb-20-px, main #team_main #teammate img, .my-20-px {
+.mb-20-px, .my-20-px, .first-section img {
   margin-bottom: 20px;
 }
 
@@ -15743,7 +15747,7 @@
   margin-right: 20px;
 }
 
-.mt-20-px, .my-20-px {
+.mt-20-px, .my-20-px, .first-section img {
   margin-top: 20px;
 }
 
@@ -15775,7 +15779,7 @@
   margin-right: 30px;
 }
 
-.mt-30-px, main #team_main #team, .my-30-px {
+.mt-30-px, .my-30-px {
   margin-top: 30px;
 }
 
@@ -15991,7 +15995,7 @@
   margin-left: 100px;
 }
 
-.mb-100-px, main .first-section, .my-100-px {
+.mb-100-px, .my-100-px {
   margin-bottom: 100px;
 }
 
@@ -16339,7 +16343,7 @@
   border-radius: 15px;
 }
 
-.r-20-px, main #team_main #teammate {
+.r-20-px {
   border-radius: 20px;
 }
 
@@ -16363,7 +16367,7 @@
   border-radius: 45px;
 }
 
-.r-full, main #team_main #teammate img, main .first-section img {
+.r-full {
   border-radius: 100%;
 }
 
@@ -16431,7 +16435,7 @@
   padding: 20px;
 }
 
-.pl-20-px, .px-20-px, main #team_main #teammate {
+.pl-20-px, .px-20-px {
   padding-left: 20px;
 }
 
@@ -16439,7 +16443,7 @@
   padding-bottom: 20px;
 }
 
-.pr-20-px, .px-20-px, main #team_main #teammate {
+.pr-20-px, .px-20-px {
   padding-right: 20px;
 }
 
@@ -16451,7 +16455,7 @@
   padding: 15%;
 }
 
-.pl-15-pr, .px-15-pr, main #team_main, main .first-section, .section_padding {
+.pl-15-pr, .px-15-pr, .first-section h1, .first-section p {
   padding-left: 15%;
 }
 
@@ -16459,7 +16463,7 @@
   padding-bottom: 15%;
 }
 
-.pr-15-pr, .px-15-pr, main #team_main, main .first-section, .section_padding {
+.pr-15-pr, .px-15-pr, .first-section h1, .first-section p {
   padding-right: 15%;
 }
 
@@ -16475,7 +16479,7 @@
   padding-left: 30px;
 }
 
-.pb-30-px, .py-30-px, main #team_main {
+.pb-30-px, .py-30-px {
   padding-bottom: 30px;
 }
 
@@ -16483,7 +16487,7 @@
   padding-right: 30px;
 }
 
-.pt-30-px, .py-30-px, main #team_main {
+.pt-30-px, .py-30-px {
   padding-top: 30px;
 }
 
@@ -16515,7 +16519,7 @@
   padding-left: 40px;
 }
 
-.pb-40-px, .py-40-px, main #team_main #teammate {
+.pb-40-px, .py-40-px {
   padding-bottom: 40px;
 }
 
@@ -16523,7 +16527,7 @@
   padding-right: 40px;
 }
 
-.pt-40-px, .py-40-px, main #team_main #teammate {
+.pt-40-px, .py-40-px {
   padding-top: 40px;
 }
 
@@ -16775,6 +16779,10 @@
   overflow-x: hidden;
 }
 
+.text-center, .first-section h1, .first-section p {
+  text-align: center;
+}
+
 * {
   padding: 0;
   border: 0;
@@ -16858,9 +16866,10 @@ body footer {
   background-color: #207720;
 }
 
-main #team_main {
-  background-color: white;
+.first-section {
+  @exteds .p-0;
+  background-color: black;
 }
-main #team_main #teammate {
-  background-color: #c9c9c9;
-}/*# sourceMappingURL=teammates.css.map */
+.first-section img {
+  opacity: 75%;
+}/*# sourceMappingURL=story.css.map */
