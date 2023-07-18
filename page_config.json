@@ -30,6 +30,19 @@
             "tag":"teammates"
         }
     ],
+    "characters":[
+        {
+            "name":"Kaya",
+            "story":"Es une isle que fue el primer ser viviente de la tierra junto a toda su especie llamada Ruiseñor, los cuales son semidioses que obtienen su poder de las Ruiseñor que sostienen en sus espaldas. <br><br> Su misión en la tierra es la evolución proporcionando ambientes favorables para esto.",
+            "main_img":"/assets/page_basics/characters/kaya/kaya_concept_art.png"
+        },
+        {
+            "name":"Tikmy",
+            "story":"Es un pequeño gusanito cándido que habita en Kaya. Solo busca amigos con los que jugar, ya que por sus características venenosa las criaturas de la isla no se acercan a él. <br> <br> Por fin un dia pudo encontrar un amigo con el que jugar, pero en su inocencia, no sabría que estaba poniendo a toda la isla en peligro",
+            "main_img":"/assets/page_basics/characters/tikmy/tikmy_concept_art.png"
+        }
+    ]
+    ,
     "teammates":[
         {
             "name":"Andres Abril",

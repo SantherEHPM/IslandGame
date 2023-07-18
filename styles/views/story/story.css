@@ -869,7 +869,7 @@
   height: 300px;
 }
 
-.s-400-300-px {
+.s-400-300-px, #characters section img {
   width: 400px;
   height: 300px;
 }
@@ -3339,7 +3339,7 @@
   height: 1000px;
 }
 
-.s-full-auto, .first-section h1, .first-section p, body main .first-section {
+.s-full-auto, #characters section, #characters, .first-section h1, .first-section p, body main .first-section {
   width: 100%;
   height: auto;
 }
@@ -3920,7 +3920,7 @@
   gap: 20px;
 }
 
-.flex-r-nw-ss-30 {
+.flex-r-nw-ss-30, #characters section {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -5846,7 +5846,7 @@
   gap: 0;
 }
 
-.flex-c-nw-ss-10 {
+.flex-c-nw-ss-10, #characters section .character_info {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -5864,7 +5864,7 @@
   gap: 20px;
 }
 
-.flex-c-nw-ss-30 {
+.flex-c-nw-ss-30, #characters {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -7411,7 +7411,7 @@
   margin-left: 40px;
 }
 
-.mb-40-px, .my-40-px {
+.mb-40-px, .my-40-px, #characters {
   margin-bottom: 40px;
 }
 
@@ -7419,7 +7419,7 @@
   margin-right: 40px;
 }
 
-.mt-40-px, .my-40-px {
+.mt-40-px, .my-40-px, #characters {
   margin-top: 40px;
 }
 
@@ -7951,7 +7951,7 @@
   border-radius: 15px;
 }
 
-.r-20-px {
+.r-20-px, #characters section img {
   border-radius: 20px;
 }
 
@@ -8063,7 +8063,7 @@
   padding: 15%;
 }
 
-.pl-15-pr, .px-15-pr, .first-section h1, .first-section p {
+.pl-15-pr, .px-15-pr, #characters section, .first-section h1, .first-section p {
   padding-left: 15%;
 }
 
@@ -8071,7 +8071,7 @@
   padding-bottom: 15%;
 }
 
-.pr-15-pr, .px-15-pr, .first-section h1, .first-section p {
+.pr-15-pr, .px-15-pr, #characters section, .first-section h1, .first-section p {
   padding-right: 15%;
 }
 
@@ -8087,7 +8087,7 @@
   padding-left: 30px;
 }
 
-.pb-30-px, .py-30-px {
+.pb-30-px, .py-30-px, #characters section {
   padding-bottom: 30px;
 }
 
@@ -8095,7 +8095,7 @@
   padding-right: 30px;
 }
 
-.pt-30-px, .py-30-px {
+.pt-30-px, .py-30-px, #characters section {
   padding-top: 30px;
 }
 
@@ -9261,7 +9261,7 @@
   height: 300px;
 }
 
-.s-400-300-px {
+.s-400-300-px, #characters section img {
   width: 400px;
   height: 300px;
 }
@@ -11731,7 +11731,7 @@
   height: 1000px;
 }
 
-.s-full-auto, .first-section h1, .first-section p, body main .first-section {
+.s-full-auto, #characters section, #characters, .first-section h1, .first-section p, body main .first-section {
   width: 100%;
   height: auto;
 }
@@ -12312,7 +12312,7 @@
   gap: 20px;
 }
 
-.flex-r-nw-ss-30 {
+.flex-r-nw-ss-30, #characters section {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -14238,7 +14238,7 @@
   gap: 0;
 }
 
-.flex-c-nw-ss-10 {
+.flex-c-nw-ss-10, #characters section .character_info {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -14256,7 +14256,7 @@
   gap: 20px;
 }
 
-.flex-c-nw-ss-30 {
+.flex-c-nw-ss-30, #characters {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -15803,7 +15803,7 @@
   margin-left: 40px;
 }
 
-.mb-40-px, .my-40-px {
+.mb-40-px, .my-40-px, #characters {
   margin-bottom: 40px;
 }
 
@@ -15811,7 +15811,7 @@
   margin-right: 40px;
 }
 
-.mt-40-px, .my-40-px {
+.mt-40-px, .my-40-px, #characters {
   margin-top: 40px;
 }
 
@@ -16343,7 +16343,7 @@
   border-radius: 15px;
 }
 
-.r-20-px {
+.r-20-px, #characters section img {
   border-radius: 20px;
 }
 
@@ -16455,7 +16455,7 @@
   padding: 15%;
 }
 
-.pl-15-pr, .px-15-pr, .first-section h1, .first-section p {
+.pl-15-pr, .px-15-pr, #characters section, .first-section h1, .first-section p {
   padding-left: 15%;
 }
 
@@ -16463,7 +16463,7 @@
   padding-bottom: 15%;
 }
 
-.pr-15-pr, .px-15-pr, .first-section h1, .first-section p {
+.pr-15-pr, .px-15-pr, #characters section, .first-section h1, .first-section p {
   padding-right: 15%;
 }
 
@@ -16479,7 +16479,7 @@
   padding-left: 30px;
 }
 
-.pb-30-px, .py-30-px {
+.pb-30-px, .py-30-px, #characters section {
   padding-bottom: 30px;
 }
 
@@ -16487,7 +16487,7 @@
   padding-right: 30px;
 }
 
-.pt-30-px, .py-30-px {
+.pt-30-px, .py-30-px, #characters section {
   padding-top: 30px;
 }
 
@@ -16854,6 +16854,7 @@ body main {
   background-color: rgba(214, 185, 59, 0.5);
 }
 body main .first-section {
+  color: white;
   background-color: #4d941a;
 }
 body footer {
@@ -16866,10 +16867,17 @@ body footer {
   background-color: #207720;
 }
 
+* {
+  color: white;
+}
+
 .first-section {
   @exteds .p-0;
   background-color: black;
 }
 .first-section img {
   opacity: 75%;
+}
+#characters section {
+  background: #689e29;
 }/*# sourceMappingURL=story.css.map */

@@ -5,7 +5,7 @@ const variableExist = (variable,exist,nonExist=(()=>console.error('Variable non-
 
 const setElementAttribute = (element,content,attribute) =>{
     variableExist(content,()=>{
-        if(attribute) element.setAttribute(attribute,content)
+        if(attribute!=undefined) element.setAttribute(attribute,content)
         else element.innerHTML = content
     },()=>{
         element.remove()
