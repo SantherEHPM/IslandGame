@@ -1,6 +1,9 @@
 @import ../../foundation/framework
 @import ../../template
 
+*
+    color: white
+    
 .first-section
     @exteds .p-0
     background-color: black
@@ -13,3 +16,24 @@
     h1,p 
         @extend .text-center        
         @include section_padding
+    
+#characters
+    @extend .s-full-auto
+    @extend .flex-c-nw-ss-30
+    @extend .my-40-px
+    
+    section
+        @extend  .flex-r-nw-ss-30
+        @extend .s-full-auto  
+        @include section_padding
+        @extend  .py-30-px
+        background: #689e29
+
+        img
+            @extend .s-400-300-px
+            @extend .r-20-px
+
+        .character_info
+            @extend .flex-c-nw-ss-10
+        
+        

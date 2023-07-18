@@ -1,0 +1,7 @@
+class Card{
+    contenido
+
+    render(){
+
+    }
+}
