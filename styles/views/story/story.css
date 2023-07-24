@@ -1,4 +1,9 @@
 @import 'https://fonts.googleapis.com/css2?family=Ysabeau+Office:ital,wght@0,1;0,500;0,800;1,1&display=swap';
+.inlineblock {
+  display: inline-block;
+  box-sizing: border-box;
+}
+
 .s-50-50-px {
   width: 50px;
   height: 50px;
@@ -8389,6 +8394,11 @@
 
 .text-center, .first-section h1, .first-section p {
   text-align: center;
+}
+
+.inlineblock {
+  display: inline-block;
+  box-sizing: border-box;
 }
 
 .s-50-50-px {

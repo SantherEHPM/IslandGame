@@ -2,6 +2,11 @@
 @use "sass:string"
 $sizes: 10 20 30 40 50 60 70 80 90 
 
+//Display 
+.inlineblock
+    display: inline-block
+    box-sizing: border-box
+
 //Sizes (width,heigth)
 
 @for $sh from 1 through 20
@@ -175,5 +180,12 @@ $position: (flex-start: s, center: c, flex-end: e)
     overflow-x: hidden
 
 //Text
-.text-center
+.t-center
     text-align: center
+    
+.t-rigth
+    text-align: right
+
+.t-left
+    text-align: left
+

@@ -40,6 +40,11 @@
             "name":"Tikmy",
             "story":"Es un pequeño gusanito cándido que habita en Kaya. Solo busca amigos con los que jugar, ya que por sus características venenosa las criaturas de la isla no se acercan a él. <br> <br> Por fin un dia pudo encontrar un amigo con el que jugar, pero en su inocencia, no sabría que estaba poniendo a toda la isla en peligro",
             "main_img":"/assets/page_basics/characters/tikmy/tikmy_concept_art.png"
+        },
+        {
+            "name":"Bird",
+            "story":"Un pajaro migratorio proveniente de otra isla, enviado para ayudar a Kaya con el conocimiento de otros de su especie y de los dioses originales con los cuales tiene una conexios interdimensional. <br> <br> El solo esta con Kaya por cuestiones de mandato celestial pero poco a poco se hara su fiel amigo.",
+            "main_img":"/assets/page_basics/characters/the bird/the bird.png"
         }
     ]
     ,
