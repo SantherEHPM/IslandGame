@@ -45,7 +45,12 @@
             "name":"Bird",
             "story":"Un pajaro migratorio proveniente de otra isla, enviado para ayudar a Kaya con el conocimiento de otros de su especie y de los dioses originales con los cuales tiene una conexios interdimensional. <br> <br> El solo esta con Kaya por cuestiones de mandato celestial pero poco a poco se hara su fiel amigo.",
             "main_img":"/assets/page_basics/characters/the bird/the bird.png"
-        }
+        },
+{
+"name":"Leviatan",
+"story":"Es un gen que aparece expontaneamente en cualquier criatura el cual origina la envidia y esto a la maldad indiscriminada hacia todos los demas."
+
+}
     ]
     ,
     "teammates":[
